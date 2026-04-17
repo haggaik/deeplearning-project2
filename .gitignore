@@ -1,0 +1,56 @@
+# .gitignore for Project 2
+
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Project caches and logs
+project2_cache/
+tensorboard_logs/
+*.log
+
+# Large binary / dataset files
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+*.h5
+
+# Data files (uncomment if you want to ignore all CSVs)
+# *.csv
+# Specific large CSVs kept out of the repo
+NYC weather - Jan-May 2020 - daily.csv
+NYC weather - Jan-May 2020 - hourly.csv
+
+# Trash and temporary backup directories
+.Trash-1000/
+
+# IDE / editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# OneDrive temp files
+~$*
+
+# Backup artifacts
+*.cell_split_backup*
+
+# Helpful notes:
+# - Remove or edit the CSV ignore line above if you want to include specific CSVs in the repo.
+# - Add any large data or model directories you don't want checked into Git.
