@@ -19,13 +19,9 @@ project2_cache/
 tensorboard_logs/
 *.log
 
-# Large binary / dataset files
-*.npy
-*.npz
-*.pt
-*.pth
-*.ckpt
-*.h5
+# Large model files are tracked via Git LFS (do not ignore these patterns)
+# If you want to exclude specific large files instead, add patterns here.
+# The repository will track model files via LFS: *.npy *.npz *.pt *.pth *.ckpt *.h5
 
 # Data files (uncomment if you want to ignore all CSVs)
 # *.csv
